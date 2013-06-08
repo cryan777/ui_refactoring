@@ -1,0 +1,70 @@
+.payscale-form {
+               margin-left: 0;
+}
+ 
+ .payscale-form, .email-request {
+                border-top: solid 1px #ecf0f1;
+                padding-top: 1em;
+}
+ 
+.order-summary .span3 {
+               margin-top: -7em;
+}
+
+.btn.btn-primary {
+                 background-color: #27ae60;
+                 background-color: #bdc3c7;
+}
+
+                 .btn.btn-primary:hover {
+                                        background-color: #2ecc71;
+                 }
+ 
+.action-buttons {
+                 float: right;
+}
+ 
+.action-buttons .btn-primary,
+.action-buttons .btn-primary:visited {
+                 background-color: #f39c12;
+}
+                 .action-buttons .btn-primary:hover {
+                                 background-color: #f1c40f;
+                  }
+                  
+.nav li {
+     line-height: 0.5em;
+}
+
+.navbar-inverse .navbar-inner {
+                background-color: #ecf0f1;                    
+}
+
+.navbar-inverse .nav > li > a {
+              color: #95a5a6;
+              border-bottom: 2px solid #ecf0f1;
+              border-left: 2px solid #ecf0f1;
+}
+ 
+              .navbar-inverse .nav > li > a:hover {
+                              color: #2ecc71;
+               }
+               
+.navbar .nav ul a:hover,
+.dropdown-inverse li.active > a, 
+.dropdown-inverse li.selected > a,
+.dropdown-menu li.active > a:hover,
+.dropdown-menu li.selected > a:hover {
+        background: #2ecc71;
+ }
+
+.tile td {
+      text-align: left;
+      vertical-align: top;
+ }
+ 
+ h1 {
+    color: #2ecc71;
+    font-weight: normal;
+    font-size: 40px
+  }
