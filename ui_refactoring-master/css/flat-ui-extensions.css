@@ -1,15 +1,19 @@
+/*
 .payscale-form {
                margin-left: 0;
 }
+*/
  
  .payscale-form, .email-request {
                 border-top: solid 1px #ecf0f1;
                 padding-top: 1em;
 }
- 
+
+/* 
 .order-summary .span3 {
                margin-top: -7em;
 }
+*/
 
 .btn.btn-primary {
                  background-color: #27ae60;
@@ -20,9 +24,11 @@
                                         background-color: #2ecc71;
                  }
  
+/*
 .action-buttons {
                  float: right;
 }
+*/
  
 .action-buttons .btn-primary,
 .action-buttons .btn-primary:visited {
@@ -31,6 +37,11 @@
                  .action-buttons .btn-primary:hover {
                                  background-color: #f1c40f;
                   }
+                  
+.nav-collapse, .nav-collapse.in.collapse {
+               height: auto;
+               overflow: visible;
+}
                   
 .nav li {
      line-height: 0.5em;
@@ -57,10 +68,19 @@
 .dropdown-menu li.selected > a:hover {
         background: #2ecc71;
  }
+ 
+.navbar-inverse .nav > li.alt-nav > a {
+          color: #27ae60;
+  }
+  
+  .navbar-inverse .nav > li.alt-nav > a:hover {
+          color: #2ecc71;
+  }
 
 .tile td {
       text-align: left;
       vertical-align: top;
+      padding: 0.5em;
  }
  
  h1 {
@@ -68,3 +88,11 @@
     font-weight: normal;
     font-size: 40px
   }
+  
+ @media (max-width: 979px) { 
+        .btn:first-child {
+                        margin-bottom: 1em;
+        }
+  } 
+  
+  
